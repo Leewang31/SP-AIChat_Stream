@@ -1,0 +1,80 @@
+.streamhub-simple-root {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #181c24;
+  border-radius: 1rem;
+  color: #fff;
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+.streamhub-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.streamhub-form label {
+  display: block;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.streamhub-form input,
+.streamhub-form textarea,
+.streamhub-form select {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #2c3140;
+  background: #23283a;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+.streamhub-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+.streamhub-choice-btn {
+  flex: 1;
+  padding: 0.8rem 0;
+  background: #23283a;
+  color: #fff;
+  border: 1px solid #2c3140;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.streamhub-choice-btn:hover {
+  background: #2c3140;
+}
+.streamhub-preview {
+  background: #23283a;
+  border: 1px solid #2c3140;
+  border-radius: 0.5rem;
+  padding: 2rem 0;
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+.streamhub-start-btn {
+  width: 100%;
+  padding: 1rem 0;
+  background: #f43f5e;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.streamhub-start-btn:hover {
+  background: #dc2626;
+}
